@@ -1,0 +1,93 @@
+:root {
+  --text: #94a3b8;
+  --text-h: #f1f5f9;
+  --text-muted: #64748b;
+  --bg: #0a0a0f;
+  --bg-elevated: #12121a;
+  --bg-card: rgba(18, 18, 28, 0.7);
+  --border: rgba(148, 163, 184, 0.12);
+  --border-hover: rgba(148, 163, 184, 0.28);
+  --code-bg: rgba(30, 30, 45, 0.8);
+  --accent: #818cf8;
+  --accent-2: #22d3ee;
+  --accent-3: #c084fc;
+  --accent-bg: rgba(129, 140, 248, 0.12);
+  --accent-border: rgba(129, 140, 248, 0.35);
+  --gradient: linear-gradient(135deg, #818cf8 0%, #22d3ee 50%, #c084fc 100%);
+  --gradient-subtle: linear-gradient(
+    135deg,
+    rgba(129, 140, 248, 0.15) 0%,
+    rgba(34, 211, 238, 0.08) 50%,
+    rgba(192, 132, 252, 0.12) 100%
+  );
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 40px rgba(129, 140, 248, 0.15);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  --Nunito:'Nunito'
+
+  font: 17px/1.6 var(--sans);
+  color-scheme: dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background: var(--bg);
+}
+
+#root {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: 100svh;
+  position: relative;
+  padding: 0 24px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading);
+  font-weight: 600;
+  color: var(--text-h);
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+}
+
+a:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: rgba(129, 140, 248, 0.35);
+  color: var(--text-h);
+}
