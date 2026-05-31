@@ -10,8 +10,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <a href="#hero" className="navbar__logo">
-        {/* <span className="navbar__logo-mark">DC</span>
-        <span className="navbar__logo-text">Portfolio</span> */}
+        Divya Chaitanya Gurram
       </a>
       <nav className="navbar__nav">
         <ul className="navbar__links">
