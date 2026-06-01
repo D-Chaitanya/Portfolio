@@ -26,7 +26,7 @@ function Hero() {
               Get in Touch
               <span className="btn__arrow" aria-hidden="true">→</span>
             </a>
-            <a href="/resume.docx" download className="btn btn--secondary">
+            <a href="/DivyaChaitanya_Resume.docx" download className="btn btn--secondary">
               Download Resume
             </a>
           </div>

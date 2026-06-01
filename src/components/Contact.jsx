@@ -12,7 +12,7 @@ function Contact() {
           Download my resume or reach out to connect.
         </p>
         <div className="contact__actions">
-          <a href="/resume.docx" download className="btn btn--primary">
+          <a href="/DivyaChaitanya_Resume.docx" download className="btn btn--primary">
             Download Resume
             <span className="btn__arrow" aria-hidden="true">→</span>
           </a>
